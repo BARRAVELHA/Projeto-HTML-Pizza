@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizaa Fiep</title>
-    <link rel="stylesheet" href="style.css">
+    <title>PizzaFiep</title>
+    <Link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- Menu -->
-     <header class="header">
+    <header class="header">
         <h1 class="logo">Pizza Fiep</h1>
 
         <div class="menu-toggle" id="menu-toggle">
@@ -19,30 +18,77 @@
 
         <nav class="menu" id="menu">
             <a href="#">Home</a>
-            <a href="#">Cardápio</a>
+            <a href="#">Cardapío</a>
             <a href="#">Sobre</a>
             <a href="#">Contato</a>
         </nav>
-     </header>
-     <div class="overlay-menu" id="overlay"></div>
 
-     <section class="diferenciais">
+    </header>
+    <div class="overlay-menu" id="overlay"></div>
+
+    <section class="hero">
+        <div class="overlay">
+            <div class="hero-text">
+                <h2>A melhor Industría<br>de pizza do<br>Brasil</h2>
+                <button> Peça Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="diferenciais">
         <h2>Nossos diferenciais</h2>
+        <div class="cards">
         <div class="card">
             <img src="./tomate.png" alt="tomate">
             <p>Ingredientes Frescos</p>
-            </div>
-            <div class="card">
-                <img src="./fogo.png" alt="Fogueira">
-                <p>Forno a lenha</p>
-            </div>
-            <div class="card">
-                <imp src="./queijo.png"alt="Queijo"></imp>
-                <p>Musarela Artesanal</p>
-            </div>
-            <div class="card"><img src="./relampago.png" alt=""></div>
-     </section>
+        </div>
+        <div class="card">
+            <img src="./fogo.png" alt="Fogueira">
+            <p>Forno a lenha</p>
+        </div>
+        <div class="card">
+            <img src="./queijo.png" alt="Queijo">
+            <p>Mussarela Artesanal</p>
+        </div>
+        <div class="card">
+            <img src="./relampago.png" alt="Relampago">
+            <p>Entrega Rápida</p>
+        </div>
+        </div> 
+    </section>
 
-     <script src="script.js"></script>
+    <section class=Cardapio>
+        <h2>Cardápio</h2>
+        <div class="Lista">
+        <ul data-litle="🍕 Tradicional">
+            <!-- PARA COLOCAR EMOJI WINDOWS + . + nome do emoji -->
+             <li>Calabresa</li>
+             <li>Frango com Catupiry</li>
+             <li>Portuguesa</li>
+             <li>Margueirita</li>
+             <li>4 Queijos</li>
+             <li>Bacon</li>
+             <li>Napolitano</li>
+             <li>Bolonhesa</li>
+        </ul>
+        <ul data-litle="🔥 Especial">
+            <li>Camarão Austriaco Com Catupiry</li>
+            <li>Carne Seca com Cream Cheese</li>
+            <li>Da casa</li>
+            <li>Filé Migon Com Cheddar</li>
+            <li>Strogonnof DE Frango e Carne</li>
+        </ul>
+
+        <ul data-litle="🔥 Doces">
+            <li>Chocolate com Morango</li>
+            <li>Banana com Canela</li>
+            <li>Romeu e Julieta</li>
+            <li>Beijinho</li>
+            <li>Prestígio</li>
+
+        </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
