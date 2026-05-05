@@ -12,7 +12,6 @@ body{
     color: #fff;
 }
 
-/* ====================== HEADER =============== */
 .header{
     position: absolute;
     width: 100%;
@@ -74,7 +73,6 @@ body{
     right: 0;
 }
 
-/* Overlay menu */
 .overlay-menu{
     position: fixed;
     top: 0;
@@ -93,7 +91,7 @@ body{
     visibility: visible;
 }
 
-/* =========== hero =========== */
+
 .hero{
     height: 100vh;
     background: url('./pizza-Fundo.png') center/cover no-repeat;
@@ -133,7 +131,7 @@ body{
     background: #87331a;
 }
 
-/* ================= Diferenciais =========== */
+
 .diferenciais{
     background: #145A32;
     padding: 80px 20px;
@@ -145,7 +143,7 @@ body{
     font-size: 28px;
 }
 
-/* GRID */
+
 .cards{
     display: flex;
     justify-content: center;
@@ -172,7 +170,6 @@ body{
     transform: translateY(-8px);
 }
 
-/* imagem */
 .card img{
     width: 130px;
     height: 130px;
@@ -198,7 +195,7 @@ body{
     font-weight: 500;
 }
 
-/* GRID */
+
 .lista{
     display: flex;
     grid-template-columns: repeat(3, 1fr);
@@ -232,16 +229,128 @@ body{
     left: 0;
     color: rgb(0, 17, 255);
 }
+.sobre{
+    background: #145A32;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.sobre h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.sobre-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.sobre-img{
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+}
+
+.sobre-img img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.sobre-text{
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+.sobre-text p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+.contato{
+    background: #f4f4f4;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contato h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.contato-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
 
 .mapBox{
-    position: relative;
-    width: px;
-    height: px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
     background: #fff;
-
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    height: 350px;
 }
 
 .mapBox iframe{
-    width: px;
-    height: px;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.form-contato{
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-contato textarea{
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #d9d9d9;
+    font-family: 'Jacques Francois', serif;
+    font-size: 15px;
+    color: #333;
+    resize: none;
+}
+
+}
+
+.form-contato button{
+    align-self: flex-end;
+    padding: 12px 30px;
+    background: #145A32;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-family: 'Jacques Francois', serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-contato button:hover{
+    background: #0d3d22;
 }
