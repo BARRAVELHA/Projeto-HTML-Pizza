@@ -90,43 +90,31 @@
         </div>
     </section>
 
-    <section class="Sobre">
-        <div class="Conteudo"
-           <h2>Sobre Nós</h2>
-
-           <img src="" alt="pizza">
-           <div class="texto">
-            <p>
-                 Na Pizza FIEP, acreditamos que boas histórias começam ao redor de uma mesa. Nosso espaço nasceu com a ideia de unir pessoas, sabores e momentos especiais em um ambiente acolhedor, inspirado nas tradicionais pizzarias italianas.
-                 <br>Tudo começa com ingredientes selecionados, massa preparada com cuidado e o aroma irresistível que sai do forno a lenha. Cada pizza é feita com dedicação, respeitando a tradição, mas também trazendo um toque de criatividade que torna cada experiência única.
-                 <br>Mais do que servir pizzas, queremos criar memórias. Seja em um encontro entre amigos, uma pausa depois de um dia de trabalho ou uma comemoração especial, a Pizza FIEP é um lugar para compartilhar, conversar e aproveitar o melhor da boa comida.
-            </p>
-           </div>
+<section class="sobre">
+    <h2>Sobre Nós</h2>
+    <div class="sobre-container">
+        <div class="sobre-img">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&q=80" alt="Pizza artesanal no forno a lenha">
         </div>
-    </section>
+        <div class="sobre-text">
+            <p>Na Pizza FIEP, acreditamos que boas histórias começam ao redor de uma mesa. Nosso espaço nasceu com a ideia de unir pessoas, sabores e momentos especiais em um ambiente acolhedor, inspirado nas tradicionais pizzarias italianas.</p>
+            <p>Tudo começa com ingredientes selecionados, massa preparada com cuidado e o aroma irresistível que sai do forno a lenha. Cada pizza é feita com dedicação, respeitando a tradição, mas também trazendo um toque de criatividade que torna cada experiência única.</p>
+            <p>Mais do que servir pizzas, queremos criar memórias. Seja em um encontro entre amigos, uma pausa depois de um dia de trabalho ou uma comemoração especial, a Pizza FIEP é um lugar para compartilhar, conversar e aproveitar o melhor da boa comida.</p>
+        </div>
+    </div>
+</section>
 
     <section class="contato">
-        <h2>Entre Em Contato</h2>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.4007730360904!2d-49.27483312540794!3d-25.424861432686914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce411bd7d31bd%3A0xd55f5236caf94127!2sR.%20Paula%20Gomes%2C%20270%20-%20S%C3%A3o%20Francisco%2C%20Curitiba%20-%20PR%2C%2080510-070!5e0!3m2!1spt-BR!2sbr!4v1777906883385!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Entre em Contato</h2>
+    <div class="contato-container">
+        <div class="mapBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14413.970926444454!2d-49.2740054!3d-25.42178535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1778014145586!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div>
-            <input type="text" placeholder="Nome" id="NomeInput">;
-        </div>
-    </section>
-             
-    <footer>
-        <div>
-            <p>&copy;  Matheus Neumann Platt </p>
-        </div>
-        <div>
-            <p>(41) 94623-6382</p>
-            <p>R.Paula Gomes, 270, São Francisco</p>
-        </div>
-    </footer>
-    <script src="script.js"></script>
-    <script>
-        
-    </script>
-    
-</html>
+        <form class="form-contato" id="formContato">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="mensagem" placeholder="Escreva sua mensagem aqui" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
