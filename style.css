@@ -330,13 +330,10 @@ body{
     border: none;
     border-radius: 8px;
     background: #cacaca;
-    font-family: 'Jacques Francois', serif;
     font-size: 15px;
     color: #333;
     resize: none;
 }
-
-
 
 .form-contato button{
     align-self: flex-end;
@@ -345,13 +342,7 @@ body{
     border: none;
     color: #ffffff;
     border-radius: 8px;
-    font-family: 'Jacques Francois', serif;
     font-size: 15px;
     cursor: pointer;
     transition: 0.3s;
 }
-
-.form-contato button:hover{
-    background: #0d3d22;
-}
-
